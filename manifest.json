@@ -1,0 +1,30 @@
+{
+  "id": "meu-script",
+  "version": "1.0.0",
+  "name": "Meu script",
+  "description": "Um script simples para exibir uma mensagem no Stremio",
+  "resources": [
+    "script"
+  ],
+  "types": [
+    "movie"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "meu-catálogo",
+      "name": "Meu catálogo",
+      "extra": [
+        {
+          "name": "search"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "index.js",
+      "type": "script"
+    }
+  ]
+}
